@@ -1,0 +1,16 @@
+p, h1, h2, h3 {
+    font-family: sans-serif;
+    color: red;
+} h1 {
+    font-family: "Courier New", Georgia, monospace;
+    color: blue;
+    background-color: red;
+} h2 {
+    font-family: "Times New Roman", Georgia, cursive;
+    color: green;
+    background-color: purple;
+} h3 {
+    font-family: "Calibri", Georgia, fantasy;
+    color: white;
+    background-color: black;
+}
