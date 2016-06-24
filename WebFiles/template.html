@@ -5,28 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind+Guntur"> 
     <link rel="stylesheet" href="bootsheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<div class="container-fluid bg-1 text-center">    
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Sergey</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavBar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#WHO">WHO</a></li>
+                <li><a href="#WHAT">WHAT</a></li>
+                <li><a href="#WHERE">WHERE</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid bg-1 text-center" id="WHO">    
     <h3>Who am I?</h3>
-    <img src="../Pictures/xcom-icon.png" class="img-circle" alt="xcom-icon">
+    <img src="../Pictures/xcom-icon.png" class="img-circle img-responsive" style="display:inline" alt="xcom-icon">
     <h3>I'm Sergey!</h3>
 </div>
 
-<div class="container-fluid bg-2 text-center">    
+<div class="container-fluid bg-2 text-center" id="WHAT">    
     <h3>What am I?</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed erat vel sem volutpat scelerisque sed quis quam. Integer eleifend enim a mauris porttitor semper. Vestibulum neque lectus, faucibus non commodo et, bibendum vitae elit. Mauris vestibulum varius dignissim. Nulla elementum quam nisl, vel ornare metus lacinia accumsan.</p>
     <a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span> Search</a>
 </div>
 
-<div class="container-fluid bg-3 text-center">
+<div class="container-fluid bg-3 text-center" id="WHERE">
     <h3>Where to find me?</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed erat vel sem volutpat scelerisque sed quis quam. Integer eleifend enim a mauris porttitor semper. Vestibulum neque lectus, faucibus non commodo et, bibendum vitae elit. Mauris vestibulum varius dignissim. Nulla elementum quam nisl, vel ornare metus lacinia accumsan.</p>
+    <p style="padding-bottom: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed erat vel sem volutpat scelerisque sed quis quam. Integer eleifend enim a mauris porttitor semper. Vestibulum neque lectus, faucibus non commodo et, bibendum vitae elit. Mauris vestibulum varius dignissim. Nulla elementum quam nisl, vel ornare metus lacinia accumsan.</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed erat vel sem volutpat scelerisque sed quis quam.</p>
+            <img src="../Pictures/xcom-sub-icon1.png" class="img-responsive" style="display:inline" alt="xcom-s1">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed erat vel sem volutpat scelerisque sed quis quam.</p>
+            <img src="../Pictures/xcom-sub-icon2.png" class="img-responsive" style="display:inline" alt="xcom-s2">
+        </div>
+        <div class="col-sm-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed erat vel sem volutpat scelerisque sed quis quam.</p>
+            <img src="../Pictures/xcom-sub-icon3.png" class="img-responsive" style="display:inline" alt="xcom-s3">
+        </div>
+    </div>
 </div>
+
+<footer class="container-fluid bg-4 text-center">
+    <p>Thank you for checking this website out. Check back later for more additions!</p>
+</footer>
 
 </body>
 </html>
