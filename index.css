@@ -1,11 +1,18 @@
 body {
     font-family: 'Lato', sans-serif;
+    background: #f8f8f8;
 }
 h2 {
     font-size: 35px;
 }
 p {
     font-size: 17px;
+}
+.col-sm-8 p {
+    color: gray;
+}
+img {
+    width: 100%;
 }
 .container-fluid {
     padding: 70px;
@@ -25,4 +32,7 @@ p {
     bottom: auto;
     text-align: left;
     transform: translateX(-35%);
+}
+.col-sm-8 {
+
 }
