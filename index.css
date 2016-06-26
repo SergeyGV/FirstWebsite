@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: 17px;
+}
+.container-fluid {
+    padding: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;    
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+}
+.carousel-caption { /* Doesn't wrap properly if really small. Needs fixing later. */
+    top: 30%;
+    right: 43%;
+    bottom: auto;
+    text-align: left;
+    transform: translateX(-35%);
+}
